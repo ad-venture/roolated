@@ -1,0 +1,18 @@
+{
+  "name": "roolated",
+  "version": "0.0.1",
+  "description": "Makes every import related to the root dir",
+  "main": "index.js",
+  "typings": "roolated",
+  "typescript": {
+    "definition": "roolated.d.ts"
+  },
+  "author": {
+    "name": "Reflectiz"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^6.0.0"
+  }
+}

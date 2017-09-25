@@ -1,0 +1,11 @@
+node_modules/
+obj/
+typings/
+files/
+.vs/
+bin/
+*.bat
+*.js
+*.js.map
+*.d.ts
+*.txt
