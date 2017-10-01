@@ -2,7 +2,7 @@ import * as path from 'path'
 import * as fs from 'fs'
 export default (function () {
     const CH_PERIOD = 46
-    const baseUrl = path.dirname(process['mainModule'].filename);
+    const baseUrl = process.cwd();
     const existsCache: { [index: string]: string; } = {};
     const moduleProto = Object.getPrototypeOf(module);
     const origRequire = moduleProto.require;
